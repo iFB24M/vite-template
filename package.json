@@ -1,0 +1,21 @@
+{
+  "name": "css-in-html",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-nunjucks": "^0.2.0",
+    "vite-plugin-replace": "^0.1.1"
+  },
+  "dependencies": {
+    "ttf2woff2": "^5.0.0"
+  }
+}

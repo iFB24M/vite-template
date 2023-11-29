@@ -1,0 +1,29 @@
+// 
+
+
+
+
+@import "mixins";
+
+$container-width: 1200px;
+$container-padding: 15px;
+
+$tablet: 992px;
+$tablet-sm: 768px;
+$mobile: 425px;
+$mobile-sm: 375px;
+$mobile-m: 320px;
+
+$font-size: rem(32);
+$font-family: 'Roboto', sans-serif;
+
+$main-color: #000;
+$background-color: #fff;
+
+@import "null";
+
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+	padding: 0 $container-padding;
+}

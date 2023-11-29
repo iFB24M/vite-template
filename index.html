@@ -1,0 +1,18 @@
+{% from "src/html/head.njk" import head %}
+{% from "src/html/header.njk" import header %}
+{% from "src/html/footer.njk" import footer %}
+
+<!doctype html>
+<html lang="en">
+{{head('Project Name')}}
+
+<body>
+  {{header()}}
+  <div class="container">
+    Привет мир!
+  </div>
+  {{footer()}}
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
